@@ -56,3 +56,11 @@ vim.o.cursorline = true
 
 -- Ask for confirmation before quitting with unsaved changes
 vim.o.confirm = true
+
+-- [[ Indentation Settings ]]
+
+-- Use 2 spaces for tabs and indentation
+vim.opt.tabstop = 2 -- Number of spaces that a <Tab> in the file counts for.
+vim.opt.shiftwidth = 2 -- Size of an indent
+vim.opt.expandtab = true -- Use spaces instead of tabs
+vim.opt.autoindent = true -- Copy indent from current line when starting a new line
